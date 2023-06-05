@@ -11,5 +11,5 @@ services:
       - ./front:/front
     command: sh -c 'npm i && npm run build && npm run dev'
     ports:
-      - 8000:5173
+      - 8080:5173
     tty: true
