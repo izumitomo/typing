@@ -2,8 +2,7 @@ version: '3'
 services:
   front:
     build:
-      context: ./front
-      dockerfile: Dockerfile
+      dockerfile: ./front/Dockerfile
     # Node.jsのグローバル変数です。開発用途なのでdevelopmentを指定します。
     environment:
       - NODE_ENV=development
